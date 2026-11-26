@@ -1,9 +1,17 @@
-import react from '@vitejs/plugin-react'
-import { defineConfig } from 'vite'
-import tailwindcss from '@tailwindcss/vite'
+// import react from '@vitejs/plugin-react'
+// import { defineConfig } from 'vite'
+// import tailwindcss from '@tailwindcss/vite'
 
-// https://vite.dev/config/
+// // https://vite.dev/config/
+// export default defineConfig({
+//   plugins: [react(), tailwindcss(),],
+//   base: '/sn_topup/',
+// })
+
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react' // ឬ plugin ផ្សេងដែលអ្នកប្រើ
+
 export default defineConfig({
-  plugins: [react(), tailwindcss(),],
+  plugins: [react()],
   base: '/sn_topup/',
 })
