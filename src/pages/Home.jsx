@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import Banner from '../components/Banner'
 import Checkout from './Checkout'
 import DiamondCard from '../components/DiamondCard'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         <Banner/>
         <Checkout/>
         <DiamondCard/>
+        <Footer/>
     </div>
   )
 }
